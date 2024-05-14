@@ -1,0 +1,32 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px 20px;
+    padding: 20px;
+}
+.gallery-item {
+    text-align: center;
+}
+.gallery-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.gallery-item p {
+    margin-top: 10px;
+}
+.obrazek5{
+    width: 80%;
+    height: 80%;
+}
+.obrazek8{
+    width: 80%;
+    height: 80%;
+}
+.footer2{
+    background-color: #1571BB;
+    color: #fff;
+    text-align: left;
+    padding: 15px;
+    bottom: 0;
+    width: 100%;
+}
